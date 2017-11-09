@@ -8,9 +8,9 @@ function findMatching(drivers, name){
     return e === name
   })
 }
-function (drivers, subName){
-  let l= subName.length
-  return drivers.filter(function (e){
-    return e.slice(0,l) == subName
-  })
-}
+// function (drivers, subName){
+//   let l= subName.length
+//   return drivers.filter(function (e){
+//     return e.slice(0,l) == subName
+//   })
+// }
