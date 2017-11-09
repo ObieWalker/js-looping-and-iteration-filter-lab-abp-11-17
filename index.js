@@ -4,7 +4,7 @@ const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 function findMatching(drivers, name){
   return drivers.filter(function(e){
     //name.toLowerCase()
-    return e === name
+    return e.toUpperCase() === name.toUpperCase()
   })
 }
 function fuzzyMatch(drivers, subName){
