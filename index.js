@@ -14,3 +14,8 @@ function fuzzyMatch(drivers, subName){
     return e.slice(0,l) == subName
   })
 }
+function matchName(drivers, matchName){
+  return drivers.filter(function (e){
+    return e.name == matchName
+  })
+}
